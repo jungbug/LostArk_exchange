@@ -20,7 +20,7 @@ export const Navbar = defineComponent({
                 return (
                   <li
                     class={`
-                      px-3 py-2 cursor-pointer text-center text-sm text-white opacity-50
+                      px-3 py-5 cursor-pointer text-center text-sm text-white opacity-50
                       ${currentIdx === i && active}
                     `}
                     style={{

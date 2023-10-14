@@ -3,6 +3,7 @@ import useStore from "./index.store";
 import { Navbar } from "./components/Nav";
 import { PostList } from "./components/PostList";
 import { PostList1 } from "./components/PostList1";
+import { Boss } from "./components/Boss";
 
 export default defineComponent({
   setup() {
@@ -15,6 +16,7 @@ export default defineComponent({
           <Navbar />
           <PostList class={`hidden ${currentIdx === 0 && block}`} />
           <PostList1 class={`hidden ${currentIdx === 1 && block}`} />
+          <Boss class={`hidden ${currentIdx === 2 && block}`} />
         </div>
       );
     };

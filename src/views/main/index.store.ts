@@ -6,15 +6,15 @@ export default defineStore('main.store', {
   state() {
     return {
       navData: [{
-        label: '스포츠 홈',
+        label: '메인',
         loginRequired: false,
         emoji: '🥏'
       }, {
-        label: '야구',
+        label: '영지 제작 효율',
         loginRequired: false,
         emoji: '⚾️'
       }, {
-        label: '해외야구',
+        label: '레이드 보상 정리',
         loginRequired: false,
         emoji: '⚾️⚾️'
       }, {
