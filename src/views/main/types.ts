@@ -25,9 +25,11 @@ export type BossData = {
 }
 
 export type MainData = {
-
+  label: string
+  loginRequired: boolean
+  explain: string
 }
 
 export type WisdomProduceData = {
-  
+
 }

@@ -12,7 +12,7 @@ export default defineComponent({
     return () => {
       const { currentIdx } = store;
       return (
-        <div>
+        <div class="bg-gray-100 h-screen">
           <Navbar />
           <Main class={`hidden ${currentIdx === 0 && block}`} />
           <WisdomProduce class={`hidden ${currentIdx === 1 && block}`} />

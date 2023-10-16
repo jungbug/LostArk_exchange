@@ -13,7 +13,7 @@ export const Navbar = defineComponent({
     return () => {
       const { navData, moveTab, currentIdx } = store; // 구조 분해 할당
       return (
-        <div class="bg-[#3663C8]">
+        <div class="bg-[#A1C652]">
           <div class="max-w-[680px] mx-auto">
             <ul class="flex">
               {navData.map(({ label, loginRequired }, i, arr) => {

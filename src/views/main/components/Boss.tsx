@@ -5,7 +5,7 @@ export const Boss = defineComponent({
   setup() {
     const store = useStore();
     return () => {
-      const { BossData } = store;
+      const { BossData, currentIdx } = store;
       return (
         <div class="max-w-[680px] mx-auto">
           <img src="" alt="" />
