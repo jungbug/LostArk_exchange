@@ -19,8 +19,8 @@ module.exports = {
     'comma-dangle': [2, 'always-multiline'],
     camelcase: 'off',
     'vue/multi-word-component-names': 'off',
-    'no-new-func': 'off', // afactory 사용을 위해 added by Tom
-    'no-redeclare': 'off', // type과 namespace 등 선언 머징을 위해 added by Tom
+    'no-new-func': 'off',
+    'no-redeclare': 'off', 
     'no-use-before-define': 'off',
     'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     'no-useless-constructor': 'off',

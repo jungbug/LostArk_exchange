@@ -18,7 +18,7 @@ export const Main = defineComponent({
                   width: 100 / arr.length + '%'
                 }}
                 onClick={() => {
-                  moveTab(loginRequired, i+1); // 이거는 pinia에 있고 여기서는 호출만
+                  moveTab(loginRequired, i+1); 
                 }}>
                     <div class="text-center w-full bg-white shadow-2xl shadow-slate-300 rounded-xl p-2 hover:bg-slate-100 active:bg-slate-200 focus:outline-none focus:ring focus:bg-slate-300">
                       <div>
