@@ -8,23 +8,18 @@ export default defineStore('main.store', {
       navData: [{
         label: '메인',
         loginRequired: false,
-        emoji: '🥏'
       }, {
         label: '영지 제작 효율',
         loginRequired: false,
-        emoji: '⚾️'
       }, {
         label: '레이드 보상 정리',
         loginRequired: false,
-        emoji: '⚾️⚾️'
       }, {
-        label: '축구',
-        loginRequired: true,
-        emoji: '⚽️'
+        label: '호감도 계산기',
+        loginRequired: false, 
       }, {
-        label: '해외축구',
+        label: '달력',
         loginRequired: true,
-        emoji: '⚽️⚽️'
       }] as T.NavData[],
 
       postData: [{
