@@ -28,15 +28,15 @@ export default defineStore('main.store', {
       MainData: [{
         label: '영지 제작 효율',
         loginRequired: false,
-        explain: '영지 제작 효율을 계산해주는 페이지입니다.'
+        explain: '영지 제작 물품들의 효율을 계산해주는 페이지입니다.'
       },{
         label: '레이드 보상 정리',
         loginRequired: false,
-        explain: '레이드 보상을 정리해주는 페이지입니다.'
+        explain: '군단장 및 어비스 보상을 정리해주는 페이지입니다.'
       },{
         label: '호감도 계산기',
         loginRequired: false,
-        explain: '호감도 캐릭터의 유물 개수 등등을 계산해주는 페이지입니다.'
+        explain: '호감도 보상 및 개수 등을 계산해주는 페이지입니다.'
       },{
         label: '달력',
         loginRequired: false,

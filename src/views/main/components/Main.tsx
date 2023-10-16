@@ -4,7 +4,6 @@ import useStore from "../index.store";
 export const Main = defineComponent({
   setup() {
     const store = useStore();
-    const active = "font-bold !opacity-100";
     return () => {
       const { MainData, moveTab} = store;
       return (
@@ -27,7 +26,7 @@ export const Main = defineComponent({
                       <div class="text-lg">
                         {label}
                       </div>
-                      <div class="text-sm mt-2 text-gray-900">
+                      <div class="text-xs mt-2 text-gray-900">
                         {explain}
                       </div>
                     </div>
