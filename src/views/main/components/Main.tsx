@@ -6,7 +6,7 @@ export const Main = defineComponent({
     const store = useStore();
     const active = "font-bold !opacity-100";
     return () => {
-      const { MainData, currentIdx, moveTab} = store;
+      const { MainData, moveTab} = store;
       return (
         <div class="max-w-[680px] mx-auto">
           <ul class="flex">
@@ -20,14 +20,14 @@ export const Main = defineComponent({
                 onClick={() => {
                   moveTab(loginRequired, i+1); // 이거는 pinia에 있고 여기서는 호출만
                 }}>
-                    <div class="text-center w-full bg-white shadow-2xl shadow-slate-300 rounded-xl p-2">
+                    <div class="text-center w-full bg-white shadow-2xl shadow-slate-300 rounded-xl p-2 hover:bg-slate-100 active:bg-slate-200 focus:outline-none focus:ring focus:bg-slate-300">
                       <div>
                         <img src="" alt="" />
                       </div>
                       <div class="text-lg">
                         {label}
                       </div>
-                      <div class="text-sm mt-2 text-gray-90z0">
+                      <div class="text-sm mt-2 text-gray-900">
                         {explain}
                       </div>
                     </div>
