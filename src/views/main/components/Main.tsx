@@ -1,7 +1,7 @@
 import { defineComponent } from "vue";
 import useStore from "../index.store";
 
-export const Boss = defineComponent({
+export const Main = defineComponent({
   setup() {
     const store = useStore();
     return () => {

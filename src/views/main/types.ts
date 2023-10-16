@@ -19,3 +19,15 @@ export type PostData1 = {
   news: string
   link: string
 }
+
+export type BossData = {
+
+}
+
+export type MainData = {
+
+}
+
+export type WisdomProduceData = {
+  
+}
